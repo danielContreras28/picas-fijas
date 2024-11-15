@@ -158,7 +158,7 @@ const PicasFijas = () => {
       <h1>Picas y Fijas</h1>
       <div className="group-input">
         <input
-          type="text"
+          type="number"
           value={NumberInput}
           onChange={(e) => setNumberInput(Number(e.target.value))}
         />
