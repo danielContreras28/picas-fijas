@@ -125,6 +125,7 @@ const PicasFijas = () => {
   }, []);
 
   useEffect(() => {
+    // Mostrar mensaje de felicitaciones
     if (result && initialGame && attemptCounter <= 2)
       toast.success(
         "Excelente, eres un maestro estas fuera del alcance de los demás", {
