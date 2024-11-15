@@ -1,0 +1,135 @@
+.components {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.group-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.group-input input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+}
+
+.button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #3dc2ec;
+  background-color: #3dc2ec;
+  color: #fff;
+  cursor: pointer;
+}
+
+.box {
+  margin-top: 10px;
+  overflow: auto;
+}
+
+.container-boxes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.boxes {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  margin-left: 5px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.picas {
+  border-color: #ffb200;
+  color: #fff;
+  background-color: #ffb200;
+}
+
+.fijas {
+  border-color: #36ba98;
+  color: #fff;
+  background-color: #36ba98;
+}
+
+.container-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal label {
+  margin-bottom: 10px;
+}
+
+.success {
+  background-color: #36ba98;
+  color: #fff;
+}
+
+.success .button {
+  background-color: #36ba98;
+  color: #fff;
+  border-color: #fff;
+}
+
+.error {
+  background-color: #cd1818;
+  color: #fff;
+}
+
+.error .button {
+  background-color: #cd1818;
+  color: #fff;
+  border-color: #fff;
+}
+
+.close-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  position: relative;
+  left: 25px;
+  height: 0;
+  top: -25px;
+}
+
+.modal-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
